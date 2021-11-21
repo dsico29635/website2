@@ -1,0 +1,57 @@
+header {
+    background-color: darkgreen;
+    height: 515px;
+    background-image: url(カメーン.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 220px;
+  padding-right: 500px;
+}
+.topNav {
+  margin-top: 200px;
+  height: 100px;
+  text-align: center;
+}
+.topNav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 5 auto;
+}
+.topNav ul a {
+    color: red;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 0px;
+    border: green 1px solid;
+    border-radius: 50px/50px;
+    transition: all 0.5s ease-in-out;
+}
+.topNav ul a:hover {
+   box-shadow: 25px 20px 10px rgba(0, 0, 0, 1);
+}
+
+ ul {
+   list-style: none;
+ }
+ article {
+     width: 960px;
+     margin: 50px auto;
+ }
+ section h3 {
+     text-align: center;
+     margin: 32px;
+     font-size: 28px;
+ }
+ footer {
+     padding: 50px;
+     background-color: lightgray;
+     text-align: center;
+     margin: 50　left;
+ }
+
